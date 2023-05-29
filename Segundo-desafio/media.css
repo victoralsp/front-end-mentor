@@ -1,0 +1,32 @@
+@media screen and (max-width: 375px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #imagem {
+        margin-top: 15px;
+        width: 350px;
+        border-radius: 10px 10px 0px 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #conteudo {
+        width: 350px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    #conteudo h2 {
+        margin-bottom: 12px;
+    }
+
+    #conteudo h1 {
+        font-size: 30px;
+    }
+
+    #paragrafo {
+        font-size: 16px;
+    }
+}

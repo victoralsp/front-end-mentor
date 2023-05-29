@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#imagem {
+    height: 375px;
+    width: 250px;
+    background: url('images/image-product-desktop.jpg');
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#conteudo {
+    width: 250px;
+    height: 375px;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    padding: 25px 25px 25px 30px;
+}
+
+#conteudo h2 {
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#conteudo h1 {
+    font-family: 'Fraunces';
+    color: hsl(212, 21%, 14%);
+    font-size: 27px;
+    line-height: 27px;
+}
+
+#paragrafo {    
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px;
+}
+
+.valor {
+    display: flex;
+    align-items: center;
+}
+
+.preco {
+    font-family: 'Fraunces';
+    color: hsl(158, 36%, 37%);
+    font-size: 27px;
+    margin: 18px 18px 0px 0px;
+}
+
+#riscado {
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: line-through;
+}
+
+
+.botao-enviar input {
+    padding: 11px;
+    margin-top: 18px;
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    border-radius: 7px;
+}
+
+input:hover {
+    background-color: hsl(157, 38%, 21%);
+}
