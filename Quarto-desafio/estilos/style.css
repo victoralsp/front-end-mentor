@@ -46,7 +46,6 @@ section {
 }
 
 .p-grande {
-
     font-weight: 800;
     font-size: 45px;
 }
@@ -69,6 +68,49 @@ section {
     color: rgba(255, 255, 255, 0.76);
     font-weight: light;
     transform: translateX(35px);
-    margin-top: 15px;
+    margin-top: 8px;
 }
+
+#sumario {
+    height: 350px;
+    width: 250px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(177, 177, 177);
+}
+
+.summary {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#sumario h1 {
+    color: hsl(224, 30%, 27%);
+}
+
+#reaction {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 85%;
+    background-color: hsla(0, 100%, 67%, 0.062);
+}
+
+#reaction span {
+    color: hsl(0, 100%, 67%);
+    margin-right: 40px;
+}
+
+#memory {
+    display: flex;
+}
+
+#verbal {
+    display: flex;
+}
+
+#visual {
+    display: flex;
+}
+
 
