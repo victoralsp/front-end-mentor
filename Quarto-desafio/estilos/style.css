@@ -64,12 +64,12 @@ section {
 }
 
 #paragrafo {
-    width: 70%;
+    width: 180px;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.76);
     font-weight: light;
     margin-top: 8px;
-    transform: translateX(35px);
+    transform: translateX(40px);
 }
 
 #sumario {
