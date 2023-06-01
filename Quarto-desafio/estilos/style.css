@@ -80,13 +80,18 @@ section {
 }
 
 .summary {
-    width: 95%;
+    width: 270px;
     margin-top: 30px;
-    margin-left: 25px;
+    padding-left: 25px;
 }
 
 #sumario h1 {
     color: hsl(224, 30%, 27%);
+    transform: translateX(0);
+}
+
+#sumario p {
+    font-size: 13px;
 }
 
 .summary img {

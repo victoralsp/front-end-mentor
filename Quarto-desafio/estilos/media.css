@@ -1,5 +1,6 @@
 @media screen and (max-width: 375px) {
 
+
     section {
         display: flex;
         justify-content: start;
@@ -13,10 +14,12 @@
     }
 
     #paragrafo {
-        width: 75%;
+        width: 280px;
         font-size: 16px;
-        transform: translateX(45px);
+        padding: 5px 0px 40px 0px;
+        margin-left: 10px;
     }
+
 
     #sumario {
         width: 100%;
@@ -24,7 +27,9 @@
     }
 
     .summary {
+        width: 100%;
         margin-top: 25px;
+        padding-left: 50px;
     }
 
     .summary img {
@@ -36,28 +41,26 @@
         margin-bottom: 25px;
         font-weight: 800;
         font-size: 20px;
-        transform: translateX(10px);
     }
 
     #reaction, #memory, #verbal, #visual {
-        font-size: 16px;
-        height: 55px;
+        font-size: 13px;
+        height: 50px;
         margin-top: 15px;
-        transform: translateX(10px);
     }
 
 
     #reaction span {
-        margin-right: 110px;
+        padding-right: 40px;
     }
     #memory span {
-        margin-right: 115px;
+        padding-right: 40px;
     }
     #verbal span {
-        margin-right: 130px;
+        padding-right: 40px;
     }
     #visual span {
-        margin-right: 133px;
+        padding-right: 40px;
     }
 
     input {
@@ -66,7 +69,6 @@
         font-size: 16px;
         font-weight: 600;
         margin-bottom: 40px;
-        transform: translateX(10px);
     }
 
 }
