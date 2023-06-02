@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'League Spartan';
+}
+
+body {
+    background: url("../images/bg-pattern-top-desktop.svg") left top no-repeat, url("../images/bg-pattern-bottom-desktop.svg") right bottom no-repeat;
+    background-size: 55%;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    height: 100%;
+    width: 70%;
+}
+
+.descricao-e-notas {
+    display: flex;
+}
+
+#descricao {
+    width: 45%;
+}
+
+#descricao h1 {
+    font-size: 3.3em;
+    line-height: 40px;
+    color:  hsl(300, 43%, 22%);
+    margin-top: 100px;
+}
+
+#descricao p {
+    color: hsl(303, 10%, 53%);
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+#notas img {
+    width: 13px;
+    height: 13px;
+    padding: 0px 3px;
+}
+
+#notas p {
+    padding-left: 30px;
+}
+
+#review-div, #guru-div, #besttech-div {
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    height: 23px;
+    width: 345px;
+    margin-bottom: 15px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 6px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#review-div {
+    margin-top: 130px;
+}
+
+#review-div {
+    margin-left: 140px;
+}
+
+#guru-div {
+    margin-left: 180px;
+}
+
+#besttech-div {
+    margin-left: 220px;
+}
+
+#avaliacoes {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 70px;
+}
+
+.foto-e-nome {
+    display: flex;
+    align-items: center;
+    padding: 30px 0px 0px 30px;
+}
+
+.foto-e-nome img {
+    width: 35px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+#avaliacoes h2 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#avaliacoes span {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+#avaliacoes p {
+    width: 80%;
+    font-size: 15px;
+    padding: 20px 0px 0px 30px;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.colton-div {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 6px;
+    width: 300px;
+    height: 190px;
+}
+
+.irene-div {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 6px;
+    width: 300px;
+    height: 190px;
+    margin-top: 13px;
+}
+
+.anne-div {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 6px;
+    width: 300px;
+    height: 190px;
+    margin-top: 30px;
+}
