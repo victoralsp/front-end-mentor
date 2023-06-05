@@ -50,7 +50,7 @@ main {
 #notas img {
     width: 13px;
     height: 13px;
-    padding: 0px 3px;
+    padding: 0px 2px;
 }
 
 #notas p {
@@ -69,6 +69,7 @@ main {
     color: hsl(300, 43%, 22%);
     font-weight: 700;
     font-size: 15px;
+    padding-left: 20px;
 }
 
 #review-div {
