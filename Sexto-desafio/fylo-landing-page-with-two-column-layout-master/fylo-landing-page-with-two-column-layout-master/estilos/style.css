@@ -96,13 +96,18 @@ nav a {
     background-color: hsla(224, 100%, 59%, 0.747);
 }
 
-#descricao-avaliacao-img {
+.background {
+    background-image: url('../images/bg-curve-desktop.svg');
+    height: 100px;
     margin-top: 100px;
+}
+
+#descricao-avaliacao-img {
     display: flex;
-    /* background-image: url('../images/bg-curve-desktop.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right; */
+    align-items: center;
+    height: 100%;
+    background-color: hsla(240, 80%, 98%, 0.856);
+    padding-top: 50px;
 }
 
 .descricao-avaliacao {
@@ -123,6 +128,7 @@ nav a {
 
 .descricao-img img {
     width: 500px;
+    
 }
 
 .fylo-works a {
@@ -143,12 +149,13 @@ nav a {
 }
 
 .kyle-avaliacao {
-    border: 1px solid black;
-    width: 320px;
-    height: 195px;
-    padding: 30px;
+
+    width: 300px;
+    padding: 25px 23px 23px 35px;
+    margin-bottom: 100px;
     background-color: rgb(255, 255, 255);
     border-radius: 7px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.055);
 }
 
 .kyle-avaliacao img {
@@ -187,3 +194,29 @@ nav a {
     font-size: 1em;
 }
 
+#get-started {
+    display: flex;
+    align-items: center;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+}
+
+.access {
+    width: 50%;
+    padding: 80px 0px;
+}
+
+.access h2 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+.access p {
+    width: 82%;
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.get-started-for-free form {
+    display: flex;
+    flex-direction: column;
+}
