@@ -79,6 +79,10 @@ nav a {
     border-radius: 3px;
 }
 
+input::placeholder {
+    color: hsl(0, 0%, 75%);
+  }
+
 #input-email {
     padding-left: 20px;
     width: 45%;
@@ -95,7 +99,7 @@ nav a {
 }
 
 #input-submit:hover {
-    background-color: hsla(224, 100%, 59%, 0.747);
+    background-color: hsla(214, 100%, 59%, 0.877);
 }
 
 .background {
@@ -107,7 +111,7 @@ nav a {
 }
 
 #descricao-avaliacao-img {
-    background-color: hsl(240, 100%, 99%);
+    background-color: #f8f8fe;
 }
 
 #background-color-1 {
@@ -116,7 +120,6 @@ nav a {
     display: flex;
     align-items: center;
     height: 100%;
-    padding-top: 50px;
 }
 
 .descricao-avaliacao {
@@ -136,13 +139,17 @@ nav a {
 }
 
 .descricao-img img {
-    width: 500px;
-    
+    width: 520px;
+    transform: translateY(-40px);
 }
 
 .fylo-works a {
     color: hsl(170, 45%, 43%);
     text-decoration: none;
+}
+
+.fylo-works a:hover {
+    opacity: 70%;
 }
 
 .fylo-works img {
@@ -255,3 +262,77 @@ nav a {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.151);
 }
 
+#input-submit-get:hover {
+    background-color: hsla(214, 100%, 59%, 0.877);
+}
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+}
+
+.footer-class {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 110px 0px;
+    line-height: 35px;
+}
+
+footer p, a {
+    color: #ffffffc7;
+    font-size: .9em;
+}
+
+.logo img {
+    filter: drop-shadow(1px 1px 5px rgba(175, 175, 175, 0.164))
+}
+
+.contato-phone, .contato-email {
+    display: flex;
+}
+
+.contato-phone img, .contato-email img {
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    width: 17px;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+
+.about-us, .contact-us {
+    display: flex;
+    flex-direction: column;
+}
+.about-us a:hover, .contact-us a:hover {
+    color: hsl(238, 22%, 44%);
+    transition: .5s;
+}
+
+.footer-class ul {
+    list-style: none;
+}
+.footer-class li a {
+    text-decoration: none;
+}
+
+.social-medias {
+    font-size: 25px;
+}
+
+.social-medias i {
+    padding: 5px 7px;
+    font-size: 20px;
+}
+
+.social-medias a {
+    width: 35px;
+    text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.308);
+    margin-right: 5px;
+}
+
+.social-medias i:hover {
+    text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.397);
+    transform: scale(110%);
+    transition: .5s;
+}
