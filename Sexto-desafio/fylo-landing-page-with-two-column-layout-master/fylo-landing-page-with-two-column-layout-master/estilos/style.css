@@ -9,17 +9,17 @@
 }
 
 body {
-    width: 90%;
-    margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
 nav {
+    width: 85%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0px;
+    padding: 60px 0px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -43,6 +43,8 @@ nav a {
 
 #descricao-email-img {
     display: flex;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .descricao-imagem img {
@@ -98,15 +100,22 @@ nav a {
 
 .background {
     background-image: url('../images/bg-curve-desktop.svg');
-    height: 100px;
+    background-position: bottom;
+    background-size: cover;
+    height: 150px;
     margin-top: 100px;
 }
 
 #descricao-avaliacao-img {
+    background-color: hsl(240, 100%, 99%);
+}
+
+#background-color-1 {
+    width: 85%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     height: 100%;
-    background-color: hsla(240, 80%, 98%, 0.856);
     padding-top: 50px;
 }
 
@@ -195,12 +204,18 @@ nav a {
 }
 
 #get-started {
-    display: flex;
-    align-items: center;
     background-color: hsl(238, 22%, 44%);
-    color: white;
 }
 
+
+#background-color-2 {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    color: white;
+}
 .access {
     width: 50%;
     padding: 80px 0px;
