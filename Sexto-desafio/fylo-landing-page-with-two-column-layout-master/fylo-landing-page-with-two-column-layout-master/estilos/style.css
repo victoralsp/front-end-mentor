@@ -158,7 +158,6 @@ nav a {
 }
 
 .kyle-avaliacao {
-
     width: 300px;
     padding: 25px 23px 23px 35px;
     margin-bottom: 100px;
@@ -213,16 +212,16 @@ nav a {
     margin: 0 auto;
     display: flex;
     align-items: center;
-
     color: white;
 }
 .access {
     width: 50%;
-    padding: 80px 0px;
+    padding: 85px 0px;
+    margin-right: 100px;
 }
 
 .access h2 {
-    font-size: 1.6em;
+    font-size: 1.7em;
     margin-bottom: 20px;
 }
 
@@ -235,3 +234,24 @@ nav a {
     display: flex;
     flex-direction: column;
 }
+
+.get-started-for-free input {
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: none;
+}
+
+#input-email-get {
+    width: 400px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.151);
+}
+#input-submit-get {
+    width: 200px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.151);
+}
+
