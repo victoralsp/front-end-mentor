@@ -37,7 +37,7 @@ nav li {
 }
 nav a {
     text-decoration: none;
-    color:  hsl(243, 87%, 12%);
+    color: hsl(228, 45%, 44%);
     font-size: 1em;
 }
 
@@ -100,6 +100,7 @@ input::placeholder {
 
 #input-submit:hover {
     background-color: hsla(214, 100%, 59%, 0.877);
+    transition: .5s;
 }
 
 .background {
@@ -264,6 +265,7 @@ input::placeholder {
 
 #input-submit-get:hover {
     background-color: hsla(214, 100%, 59%, 0.877);
+    transition: .5s;
 }
 
 footer {
